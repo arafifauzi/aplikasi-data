@@ -1,0 +1,212 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8; /* Latar belakang lebih lembut */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px; /* Padding lebih besar */
+    border-radius: 12px; /* Border radius lebih besar */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow lebih halus dan besar */
+    width: 85%; /* Lebar sedikit lebih besar */
+    max-width: 960px; /* Max lebar sedikit lebih besar */
+}
+
+h1, h2 {
+    color: #37474f; /* Warna judul lebih kalem */
+    text-align: center;
+    margin-bottom: 30px; /* Margin bawah lebih besar */
+}
+
+.input-area, .data-area {
+    margin-bottom: 30px;
+    padding: 25px; /* Padding lebih besar */
+    background-color: #fff;
+    border-radius: 8px; /* Border radius lebih besar */
+    border: 1px solid #e0e0e0; /* Border lebih tipis dan lembut */
+}
+
+.input-area h2, .data-area h2 {
+    color: #2e7d32; /* Warna subjudul lebih elegan */
+    margin-top: 0;
+    margin-bottom: 20px; /* Margin bawah lebih besar */
+}
+
+.input-area input[type="text"],
+.input-area input[type="email"] {
+    width: calc(100% - 24px); /* Sesuaikan dengan padding */
+    padding: 12px; /* Padding lebih besar */
+    margin-bottom: 15px; /* Margin bawah lebih besar */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Border radius lebih besar */
+    box-sizing: border-box;
+    font-size: 1rem; /* Ukuran font lebih besar */
+}
+
+.button {
+    background-color: #1e88e5; /* Warna tombol primer lebih elegan */
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Padding tombol lebih besar */
+    border-radius: 6px; /* Border radius tombol lebih besar */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Efek shadow pada tombol */
+}
+
+.button.primary {
+    background-color: #1e88e5;
+}
+
+.button.secondary {
+    background-color: #78909c; /* Warna tombol sekunder lebih kalem */
+}
+
+.button:hover {
+    background-color: #1565c0; /* Efek hover lebih gelap */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek shadow saat hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px; /* Border radius tabel lebih besar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Shadow tabel lebih halus */
+    overflow: hidden; /* Untuk border radius pada tbody */
+}
+
+th, td {
+    padding: 15px 20px; /* Padding sel lebih besar */
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem; /* Ukuran font sel lebih besar */
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: 600; /* Font weight lebih tebal untuk header */
+    color: #555; /* Warna teks header lebih gelap */
+}
+
+tr:nth-child(even) {
+    background-color: #fcfcfc; /* Warna baris genap sedikit berbeda */
+}
+
+.update-button,
+.delete-button {
+    margin-right: 8px; /* Margin kanan tombol aksi lebih besar */
+    padding: 10px 16px; /* Padding tombol aksi lebih besar */
+    border-radius: 6px; /* Border radius tombol aksi lebih besar */
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out; /* Transisi untuk efek hover */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); /* Efek shadow pada tombol aksi */
+}
+
+.update-button {
+    background-color: #4caf50; /* Warna tombol update lebih segar */
+    color: white;
+    border: 1px solid #4caf50;
+}
+
+.delete-button {
+    background-color: #f44336; /* Warna tombol delete lebih tegas */
+    color: white;
+    border: 1px solid #f44336;
+}
+
+.update-button:hover {
+    background-color: #388e3c; /* Efek hover lebih gelap */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; /* Efek hover lebih gelap */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5); /* Latar belakang modal lebih gelap */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto; /* Posisi modal sedikit lebih tinggi */
+    padding: 30px; /* Padding modal lebih besar */
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 12px; /* Border radius modal lebih besar */
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Shadow modal lebih besar */
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 36px; /* Ukuran tombol close lebih besar */
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7; /* Opacity tombol close */
+    transition: opacity 0.2s ease-in-out;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    opacity: 1;
+}
+
+.modal-actions {
+    margin-top: 30px;
+    text-align: right;
+    display: flex; /* Tambahkan flexbox */
+    justify-content: flex-end; /* Ratakan tombol ke kanan */
+    gap: 10px; /* Berikan jarak antar tombol */
+}
+
+.modal-actions .button {
+    /* Properti yang sudah ada */
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    min-width: 80px; /* Atur lebar minimum agar sama */
+    text-align: center; /* Pastikan teks di tengah */
+}
+
+.modal-actions .button.primary {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+}
+
+.modal-actions .button.secondary {
+    background-color: #78909c;
+    color: white;
+    border: none;
+}
+
+.modal-actions .button:hover {
+    opacity: 0.9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
