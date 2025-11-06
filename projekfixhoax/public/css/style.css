@@ -1,0 +1,223 @@
+/* public/css/style.css */
+
+/* Reset dan Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Layout untuk Login dan Register */
+.left-panel {
+    width: 60%; /* Ubah menjadi 30% untuk proporsi 70:30 */
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-panel {
+    width:40%; /* Ubah menjadi 70% untuk proporsi 70:30 */
+    height: 100vh; /* Pastikan memenuhi tinggi viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #e0e0e0; /* Fallback jika gambar gagal dimuat */
+}
+
+.right-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gambar memenuhi area tanpa distorsi */
+    object-position: center; /* Pusatkan gambar */
+}
+
+/* Tipografi */
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 22px; /* Sedikit lebih kecil untuk proporsi 30% */
+}
+
+p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px; /* Sedikit lebih kecil untuk proporsi */
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 300px; /* Kurangi lebar form untuk proporsi 30% */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Sesuaikan dengan proporsi */
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #BA181B;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #BA181B;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #9e1517;
+}
+
+/* Tautan */
+.forgot-password,
+.signup-link,
+.login-link {
+    color: #1976d2;
+    text-decoration: none;
+    font-size: 12px; /* Sesuaikan dengan proporsi */
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    transition: color 0.3s;
+}
+
+.forgot-password:hover,
+.signup-link:hover,
+.login-link:hover {
+    color: #0d47a1;
+}
+
+/* Alert Messages */
+.alert {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+.error {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+/* Checkbox (jika digunakan di masa depan) */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.checkbox-group label {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .left-panel,
+    .right-panel {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-panel {
+        padding: 20px;
+        min-height: 40vh; /* Pastikan cukup ruang untuk form */
+    }
+
+    .right-panel {
+        height: 60vh; /* Kurangi tinggi gambar di mobile */
+    }
+
+    .right-panel img {
+        height: 100%;
+        max-height: none;
+    }
+
+    .form-group {
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-panel {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"] {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .alert {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .forgot-password,
+    .signup-link,
+    .login-link {
+        font-size: 11px;
+    }
+}

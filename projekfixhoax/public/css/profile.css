@@ -1,0 +1,78 @@
+/* public/assets/css/profile.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f0fa;
+}
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-header h2 {
+    margin: 0;
+    color: #333;
+}
+.profile-header .user-info {
+    text-align: right;
+}
+.profile-header .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.profile-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, .form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.form-group input:disabled {
+    background-color: #f0f0f0;
+}
+.save-btn, .logout-btn {
+    background-color: #BA181B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.save-btn:hover, .logout-btn:hover {
+    background-color: #b71c1c;
+}
+.success {
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}

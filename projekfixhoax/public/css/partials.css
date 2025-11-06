@@ -1,0 +1,182 @@
+.navbar {
+    background-color: #BA181B;
+    padding: 15px 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 35px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.navbar ul li:first-child {
+    margin-left: 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    /* Lighter weight for Poppins */
+    position: relative;
+    z-index: 1;
+}
+
+.navbar ul li.active a {
+    color: #fff;
+}
+
+.navbar ul li.active a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.user-actions-container {
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn img {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.logout-btn:hover {
+    opacity: 0.8;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #BA181B;
+    padding: 15px 0;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.footer-text .logo img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.footer-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 36px;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-content {
+        padding: 0 15px;
+    }
+
+    .navbar ul li {
+        margin-left: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 12px;
+    }
+
+    .logo-container,
+    .user-actions-container {
+        width: 40px;
+    }
+
+    .navbar .logo img {
+        width: 30px;
+    }
+
+    .logout-btn img {
+        width: 20px;
+    }
+
+    .footer-content {
+        padding: 0 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .social-icons a img {
+        width: 30px;
+    }
+}

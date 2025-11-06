@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.subheader {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-detail {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.news-detail h1 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.news-detail .date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.news-detail .image {
+    max-width: 100%;
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.news-detail p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.comment-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.comment-form button {
+    background-color: #BA181B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.comment-form button:hover {
+    background-color: #b71c1c;
+}
+
+.comment-section .error {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.comment-section .success {
+    color: green;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.comment-header .name {
+    font-weight: bold;
+    color: #333;
+}
+
+.comment-content {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.edited-note {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.comment-actions a.reaction {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #666;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.comment-actions a.reaction:hover {
+    color: #b71c1c;
+    background-color: #f5f5f5;
+    transform: scale(1.05);
+}
+
+.comment-actions a.reaction.active {
+    color: #BA181B;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    border-color: #BA181B;
+}
+
+.comment-actions a.reaction:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(186, 24, 27, 0.3);
+}
+
+.comment-actions .edit-btn,
+.comment-actions .delete-btn {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.comment-actions .edit-btn:hover,
+.comment-actions .delete-btn:hover {
+    text-decoration: underline;
+}
+
+.edit-form {
+    display: none;
+    margin-top: 10px;
+}
+
+.edit-form.active {
+    display: block;
+}
+
+.edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.edit-form button {
+    background-color: #BA181B;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.edit-form button:hover {
+    background-color: #b71c1c;
+}
+
+.edit-form button[type="button"] {
+    background-color: #666;
+}
+
+.edit-form button[type="button"]:hover {
+    background-color: #555;
+}
+
+.sidebar h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.like-icon {
+    background-image: url('../../public/images/like.png');
+}
+
+.dislike-icon {
+    background-image: url('../../public/images/dislike.png');
+}
+
+.count {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .sidebar {
+        flex: none;
+        width: 100%;
+    }
+
+    .news-detail .image {
+        height: 300px;
+    }
+
+    .comment-actions a.reaction {
+        padding: 5px 8px;
+        gap: 5px;
+    }
+
+    .icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .count {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .comment-actions {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .comment-actions a.reaction {
+        padding: 4px 6px;
+    }
+
+    .icon {
+        width: 14px;
+        height: 14px;
+    }
+}

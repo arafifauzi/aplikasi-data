@@ -1,0 +1,701 @@
+NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error for limit 5: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error for limit 5: Unknown column 'artikel_id' in 'field list'Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getLatestNews error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'NewsModel: getNewsPaginated error: Unknown column 'artikel_id' in 'field list'AdminNewsController: Index error: Unknown column 'artikel_id' in 'field list'Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+index.php: Invalid action: report_updateindex.php: Invalid action: report_updateindex.php: Invalid action: report_updateindex.php: Invalid action: report_updateindex.php: Invalid action: report_updateArticle data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+index.php: Invalid action: admin/dashboardindex.php: Invalid action: admin/dashboardArticle data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [judul_artikel] => asdadsaddad
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+)
+index.php: Invalid action: admin/dashboardindex.php: Action requested: homeindex.php: Action requested: news_detailindex.php: Action requested: news_detailindex.php: Action requested: homeindex.php: Action requested: news_detailindex.php: Action requested: news_detailindex.php: Action requested: news_detailindex.php: Action requested: homeindex.php: Action requested: reportindex.php: Action requested: report_detailindex.php: Action requested: reportindex.php: Action requested: report_detailindex.php: Action requested: profileindex.php: Action requested: logoutindex.php: Action requested: auth/loginindex.php: Action requested: auth/loginindex.php: Action requested: homeindex.php: Action requested: reportindex.php: Action requested: reportindex.php: Action requested: reportindex.php: Action requested: report_detailindex.php: Action requested: editindex.php: Invalid action: editindex.php: Action requested: homeindex.php: Action requested: homeindex.php: Action requested: news_detailindex.php: Action requested: reportindex.php: Action requested: report_detailindex.php: Action requested: report_updateindex.php: Action requested: report_detailindex.php: Action requested: report_detailArticle data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [judul_artikel] => asdadsaddad
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+)
+index.php: Invalid action: admin/dashboardArticle data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [judul_artikel] => asdadsaddad
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+)
+Article data fetched: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [judul_artikel] => Tips Menjaga Kesehatan Saat Kerja Remote
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [judul_artikel] => Panduan Belajar Pemrograman untuk Pemula
+            [link_artikel] => https://example.com/artikel/belajar-pemrograman
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [judul_artikel] => Manfaat Olahraga di Pagi Hari
+            [link_artikel] => https://example.com/artikel/olahraga-pagi
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [judul_artikel] => asdadsaddad
+            [link_artikel] => https://example.com/artikel/kerja-remote
+        )
+
+)
+index.php: Invalid action: admin/dashboard

@@ -1,0 +1,330 @@
+/* public/css/admin_news.css */
+
+/* Tabel Berita */
+.news-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    z-index: 600;
+}
+
+.news-table th,
+.news-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.news-table th {
+    background-color: #BA181B;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.news-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.news-table tr.clickable:hover {
+    background-color: #fce8e8;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.news-table td a {
+    color: #BA181B;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.news-table td a:hover {
+    text-decoration: underline;
+}
+
+.news-table .thumbnail {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Form */
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.add-form input,
+.add-form select,
+.add-form textarea {
+    padding: 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.add-form label {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.add-form select[multiple] {
+    height: 120px;
+}
+
+.add-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.add-form button {
+    background-color: #BA181B;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.add-form button:hover {
+    background-color: #9e1517;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1100;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 600px;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.modal-content h3 {
+    margin: 0 0 16px;
+    color: #1a202c;
+    font-size: 18px;
+}
+
+.modal-content label {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.modal-content input,
+.modal-content select,
+.modal-content textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.modal-content select[multiple] {
+    height: 120px;
+}
+
+.modal-content textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.modal-content button {
+    background-color: #BA181B;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.modal-content button:hover {
+    background-color: #9e1517;
+}
+
+.modal-content .cancel-btn {
+    background-color: #718096;
+    margin-left: 8px;
+}
+
+.modal-content .cancel-btn:hover {
+    background-color: #4a5568;
+}
+
+.modal-content .image-preview {
+    max-width: 150px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+}
+
+.no-image {
+    color: #718096;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.detail-content p {
+    margin-bottom: 10px;
+}
+
+.detail-content strong {
+    display: inline-block;
+    width: 120px;
+    color: #2d3748;
+    font-weight: 600;
+}
+
+.detail-content img {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.artikel-list {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+}
+
+.artikel-list li {
+    margin-bottom: 5px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 20px;
+    color: #BA181B;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.close-btn:hover {
+    color: #9e1517;
+}
+
+.edit-news-btn,
+.edit-btn,
+.close-detail-btn {
+    background-color: #BA181B;
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.edit-news-btn:hover,
+.edit-btn:hover,
+.close-detail-btn:hover {
+    background-color: #9e1517;
+}
+
+.edit-news-btn i,
+.fa-trash-alt {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.fa-trash-alt:hover {
+    color: #e2e8f0;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    .news-table {
+        font-size: 12px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        margin-top: 60px;
+    }
+
+    .news-table th,
+    .news-table td {
+        padding: 8px;
+        min-width: 100px;
+    }
+
+    .add-form {
+        padding: 12px;
+    }
+
+    .modal-content {
+        width: 95%;
+        max-height: 90vh;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 12px;
+    }
+
+    .modal-content h3 {
+        font-size: 16px;
+    }
+
+    .modal-content input,
+    .modal-content select,
+    .modal-content textarea {
+        font-size: 12px;
+    }
+
+    .detail-content p {
+        font-size: 12px;
+    }
+
+    .detail-content strong {
+        width: 100px;
+    }
+}

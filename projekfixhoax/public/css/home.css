@@ -1,0 +1,144 @@
+/* public/css/home.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f0fa;
+    color: #333;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.featured-news {
+    position: relative;
+    /* margin-bottom: 20px; */
+}
+
+.featured-news img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.featured-news .source {
+    background-color: #BA181B;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.featured-news .title {
+    margin-top: -125px;
+    font-size: 18px;
+    color: #333;
+}
+
+.featured-news .title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.featured-news .title a:hover {
+    text-decoration: underline;
+}
+
+.news-sections {
+    display: flex;
+    justify-content: flex-start; /* Mengatur section berdekatan di sisi kiri */
+    gap: 20px; /* Memberikan jarak tetap antar section */
+    margin-top: 20px;
+}
+
+.news-section {
+    width: 48%;
+}
+
+.news-section.popular-container {
+    width: 40%;
+    border: 4px solid #BA181B;
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+}
+
+.news-section h3 {
+    color: #BA181B;
+    border-left: 3px solid #BA181B;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.news-item img {
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.news-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.news-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.popular-item {
+    border: 1px solid #BA181B;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.alert.error {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.action-btn {
+    background-color: #BA181B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.action-btn:hover {
+    background-color: #8B0000;
+}
